@@ -1,68 +1,18 @@
 # IceByte GRUB theme
 
-desktop-color: "#5E095E"
+desktop-color: "#000000"
 terminal-font: "DejaVu Sans Mono Regular 16"
 
-# ASCII Logo
-+ text {
-    text = "  ▄▄▄▄▄▄                       ▄▄▄▄▄▄                                 ";
-    left = 80;
-    top = 40;
-    color = "#FFFFFF";
-}
+title-text: "  ▄▄▄▄▄▄                       ▄▄▄▄▄▄                                 \n  ▀▀██▀▀                       ██▀▀▀▀██              ██               \n    ██      ▄█████▄   ▄████▄   ██    ██  ▀██  ███  ███████    ▄████▄  \n    ██     ██▀    ▀  ██▄▄▄▄██  ███████    ██▄ ██     ██      ██▄▄▄▄██ \n    ██     ██        ██▀▀▀▀▀▀  ██    ██    ████▀     ██      ██▀▀▀▀▀▀ \n  ▄▄██▄▄   ▀██▄▄▄▄█  ▀██▄▄▄▄█  ██▄▄▄▄██     ███      ██▄▄▄   ▀██▄▄▄▄█ \n  ▀▀▀▀▀▀     ▀▀▀▀▀     ▀▀▀▀▀   ▀▀▀▀▀▀▀      ██        ▀▀▀▀     ▀▀▀▀▀  \n                                          ███                         "
 
-+ text {
-    text = "  ▀▀██▀▀                       ██▀▀▀▀██              ██               ";
-    left = 80;
-    top = 70;
-    color = "#FFFFFF";
-}
-
-+ text {
-    text = "    ██      ▄█████▄   ▄████▄   ██    ██  ▀██  ███  ███████    ▄████▄  ";
-    left = 80;
-    top = 100;
-    color = "#FFFFFF";
-}
-
-+ text {
-    text = "    ██     ██▀    ▀  ██▄▄▄▄██  ███████    ██▄ ██     ██      ██▄▄▄▄██ ";
-    left = 80;
-    top = 130;
-    color = "#FFFFFF";
-}
-
-+ text {
-    text = "    ██     ██        ██▀▀▀▀▀▀  ██    ██    ████▀     ██      ██▀▀▀▀▀▀ ";
-    left = 80;
-    top = 160;
-    color = "#FFFFFF";
-}
-
-+ text {
-    text = "  ▄▄██▄▄   ▀██▄▄▄▄█  ▀██▄▄▄▄█  ██▄▄▄▄██     ███      ██▄▄▄   ▀██▄▄▄▄█ ";
-    left = 80;
-    top = 190;
-    color = "#FFFFFF";
-}
-
-+ text {
-    text = "  ▀▀▀▀▀▀     ▀▀▀▀▀     ▀▀▀▀▀   ▀▀▀▀▀▀▀      ██        ▀▀▀▀     ▀▀▀▀▀  ";
-    left = 80;
-    top = 220;
-    color = "#FFFFFF";
-}
-
-+ text {
-    text = "                                          ███                         ";
-    left = 80;
-    top = 250;
-    color = "#FFFFFF";
-}
+title-font: "DejaVu Sans Mono Bold 14"
+title-color: "#FFFFFF"
+title-align: "center"
+title-margin-bottom: 40
 
 + boot_menu {
-    left = 400;
-    top = 320;
-    width = 400;
-    height = 300;
+    left = 30%;
+    top = 55%;
+    width = 40%;
+    height = 40%;
 }
