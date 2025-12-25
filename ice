@@ -1,78 +1,68 @@
 # IceByte GRUB theme
 
-desktop-color: "#000000"
+desktop-color: "#5E095E"
 terminal-font: "DejaVu Sans Mono Regular 16"
-title-font: "DejaVu Sans Mono Bold 20"
 
 # ASCII Logo
-+ label {
++ text {
     text = "  ▄▄▄▄▄▄                       ▄▄▄▄▄▄                                 ";
-    left = 10%;
-    top = 5%;
+    left = 80;
+    top = 40;
     color = "#FFFFFF";
-    font = "DejaVu Sans Mono Regular 14";
 }
 
-+ label {
++ text {
     text = "  ▀▀██▀▀                       ██▀▀▀▀██              ██               ";
-    left = 10%;
-    top = 9%;
+    left = 80;
+    top = 70;
     color = "#FFFFFF";
-    font = "DejaVu Sans Mono Regular 14";
 }
 
-+ label {
++ text {
     text = "    ██      ▄█████▄   ▄████▄   ██    ██  ▀██  ███  ███████    ▄████▄  ";
-    left = 10%;
-    top = 13%;
+    left = 80;
+    top = 100;
     color = "#FFFFFF";
-    font = "DejaVu Sans Mono Regular 14";
 }
 
-+ label {
++ text {
     text = "    ██     ██▀    ▀  ██▄▄▄▄██  ███████    ██▄ ██     ██      ██▄▄▄▄██ ";
-    left = 10%;
-    top = 17%;
+    left = 80;
+    top = 130;
     color = "#FFFFFF";
-    font = "DejaVu Sans Mono Regular 14";
 }
 
-+ label {
++ text {
     text = "    ██     ██        ██▀▀▀▀▀▀  ██    ██    ████▀     ██      ██▀▀▀▀▀▀ ";
-    left = 10%;
-    top = 21%;
+    left = 80;
+    top = 160;
     color = "#FFFFFF";
-    font = "DejaVu Sans Mono Regular 14";
 }
 
-+ label {
++ text {
     text = "  ▄▄██▄▄   ▀██▄▄▄▄█  ▀██▄▄▄▄█  ██▄▄▄▄██     ███      ██▄▄▄   ▀██▄▄▄▄█ ";
-    left = 10%;
-    top = 25%;
+    left = 80;
+    top = 190;
     color = "#FFFFFF";
-    font = "DejaVu Sans Mono Regular 14";
 }
 
-+ label {
++ text {
     text = "  ▀▀▀▀▀▀     ▀▀▀▀▀     ▀▀▀▀▀   ▀▀▀▀▀▀▀      ██        ▀▀▀▀     ▀▀▀▀▀  ";
-    left = 10%;
-    top = 29%;
+    left = 80;
+    top = 220;
     color = "#FFFFFF";
-    font = "DejaVu Sans Mono Regular 14";
 }
 
-+ label {
++ text {
     text = "                                          ███                         ";
-    left = 10%;
-    top = 33%;
+    left = 80;
+    top = 250;
     color = "#FFFFFF";
-    font = "DejaVu Sans Mono Regular 14";
 }
 
-# Boot menu placement
 + boot_menu {
-    left = 30%;
-    top = 45%;
-    width = 40%;
-    height = 40%;
+    left = 400;
+    top = 320;
+    width = 400;
+    height = 300;
 }
