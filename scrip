@@ -1,0 +1,9 @@
+ImageDir = "/usr/share/plymouth/themes/mrbyte";
+
+logo = Image(ImageDir + "/mrbyte.png");
+logo.SetPosition(Window.GetX() + (Window.GetWidth()  - logo.GetWidth())  / 2,
+                 Window.GetY() + (Window.GetHeight() - logo.GetHeight()) / 2);
+
+spinner = Spinner();
+spinner.SetPosition(Window.GetX() + (Window.GetWidth()  - spinner.GetWidth())  / 2,
+                    Window.GetY() + (Window.GetHeight() - spinner.GetHeight()) / 2 + logo.GetHeight()/1.2);
